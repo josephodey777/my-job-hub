@@ -16,7 +16,7 @@ def fetch_adzuna_jobs(keyword, location="Canada"):
     params = {
         "app_id": app_id,
         "app_key": app_key,
-        "results_per_page": 5, 
+        "results_per_page": 20, 
         "what": keyword,       
         "where": location      
     }
